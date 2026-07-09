@@ -1,63 +1,65 @@
-# GestaoInspecaoFront
+Sistema de Inspeção Industrial com Inteligência Artificial
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.0.
+Este projeto é uma solução Full-Stack robusta desenhada para otimizar a manutenção industrial através da análise preditiva de anomalias em equipamentos, utilizando a capacidade de raciocínio do modelo Gemini (Google).
 
-## Development server
+🏭 Visão Geral
 
-To start a local development server, run:
+A aplicação permite que técnicos de manutenção registem falhas ou comportamentos anormais em máquinas da fábrica através de uma interface intuitiva. O sistema processa estas descrições e gera diretrizes de manutenção corretiva/preventiva em tempo real.
 
-```bash
+🛠 Arquitetura do Sistema
+
+O sistema está estruturado em microsserviços para garantir escalabilidade:
+
+Frontend: Angular (TypeScript) com Tailwind CSS para uma interface responsiva e moderna.
+
+Backend: Java (Spring Boot) gerindo o histórico de inspeções, persistência de dados e orquestração.
+
+Motor de IA: Python (FastAPI/Uvicorn) responsável por integrar com a API do Google Gemini.
+
+🚀 Como Executar
+
+Pré-requisitos
+
+Java 17+ / Maven
+
+Node.js (v18+) e Angular CLI
+
+Python 3.10+
+
+Passos de Instalação
+
+Clonar o repositório:
+
+git clone <link-do-seu-repo>
+cd nome-do-projeto
+
+
+Iniciar o Backend (Java):
+
+mvn spring-boot:run
+
+
+Iniciar o Frontend (Angular):
+
+cd frontend
+npm install
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+💡 Funcionalidades Principais
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Registo Técnico: Interface otimizada para inserção rápida de anomalias.
 
-```bash
-ng generate component component-name
-```
+Dashboard de Gestão: Painel de supervisão com métricas de equipamentos em risco.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Análise Inteligente: Integração direta com IA para diagnóstico técnico imediato.
 
-```bash
-ng generate --help
-```
+📸 Screenshots
 
-## Building
+(Adicione aqui os prints que tirou do sistema a funcionar!)
 
-To build the project run:
+🤝 Contribuição
 
-```bash
-ng build
-```
+Sinta-se à vontade para enviar Pull Requests para melhorias ou correções.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# Gestao_Inspecao_IA
-# Gestao_Inspecao_IA
-# Gestao_Inspecao_IA
-# Gestao_Inspecao_IA
+Desenvolvido com foco em alta performance e integração de microsserviços.
