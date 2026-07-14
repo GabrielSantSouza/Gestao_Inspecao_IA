@@ -53,13 +53,3 @@ Registo Técnico: Interface otimizada para inserção rápida de anomalias.
 Dashboard de Gestão: Painel de supervisão com métricas de equipamentos em risco.
 
 Análise Inteligente: Integração direta com IA para diagnóstico técnico imediato.
-
-📸 Screenshots
-
-(Adicione aqui os prints que tirou do sistema a funcionar!)
-
-🤝 Contribuição
-
-Sinta-se à vontade para enviar Pull Requests para melhorias ou correções.
-
-Desenvolvido com foco em alta performance e integração de microsserviços.
